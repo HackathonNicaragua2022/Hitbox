@@ -10,6 +10,7 @@ $(document).ready(function(){
         document. getElementById('ir').style.opacity ='1';
         document. getElementById('in').style.zIndex ='10';
         document. getElementById('ir').style.zIndex ='100';
+        document.getElementById("imgss").src="assets/registro.png";
         })
 })
 $(document).ready(function(){
@@ -23,5 +24,6 @@ $(document).ready(function(){
         document. getElementById('ir').style.opacity ='0';
         document. getElementById('in').style.zIndex ='100';
         document. getElementById('ir').style.zIndex ='10';
+        document.getElementById("imgss").src="assets/inicio.png";
         })
 })

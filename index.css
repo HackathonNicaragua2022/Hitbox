@@ -131,6 +131,9 @@ transition: 0.2s;
 color: rgb(146, 146, 146);
 }
 /* boton enviar */
+img{
+  transition: 0.5s;
+}
 .enviar {
     display: flex;
     position: relative;

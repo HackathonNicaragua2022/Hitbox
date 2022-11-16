@@ -143,11 +143,30 @@ MESP=MESP-12;
 }else{
 AP=parseInt(anio1);
 }
-document.write("<h1> Hora y Fecha del Estro "+HE+":00   "+DE+"/"+MESE+"/"+AE+" </h1><br>");
-document.write("<h1> Hora y Fecha del Proestro "+HM+":00   "+DM+"/"+MESM+"/"+AM+" </h1><br>");
-document.write("<h1> Hora y Fecha del Metadiestro "+HD+":00   "+DD+"/"+MESD+"/"+AD+" </h1><br>");
-document.write("<h1> Hora y Fecha del Diestro "+HP+":00   "+DP+"/"+MESP+"/"+AP+" </h1><br>");
-
+// document.write("<h1> Hora y Fecha del Estro "+HE+":00   "+DE+"/"+MESE+"/"+AE+" </h1><br>");
+// document.write("<h1> Hora y Fecha del Proestro "+HM+":00   "+DM+"/"+MESM+"/"+AM+" </h1><br>");
+// document.write("<h1> Hora y Fecha del Metadiestro "+HD+":00   "+DD+"/"+MESD+"/"+AD+" </h1><br>");
+// document.write("<h1> Hora y Fecha del Diestro "+HP+":00   "+DP+"/"+MESP+"/"+AP+" </h1><br>");
+var newt = document.createElement("div");
+var newt2 = document.createElement("div");
+var newt3 = document.createElement("div");
+var newt4 = document.createElement("div");
+newt.style.cssText='border:none;padding:12px;width:350px;margin:12px 0 12px 0;position: relative;top: -1455px; left: 50%;z-index:10000;font-family: Avenir Book, sans-serif;font-size: 16px;font-weight: 700;' ; 
+newt2.style.cssText='border:none;padding:12px;width:350px;margin:12px 0 12px 0;position: relative;top: -1455px; left: 50%;z-index:10000;font-family: Avenir Book, sans-serif;font-size: 16px;font-weight: 700;';       1
+newt3.style.cssText='border:none;padding:12px;width:350px;margin:12px 0 12px 0;position: relative;top: -1455px; left: 50%;z-index:10000;font-family: Avenir Book, sans-serif;font-size: 16px;font-weight: 700;';       
+newt4.style.cssText='border:none;padding:12px;width:350px;margin:12px 0 12px 0;position: relative;top: -1455px; left: 50%;z-index:10000;font-family: Avenir Book, sans-serif;font-size: 16px;font-weight: 700;';                       
+var t= document.createTextNode("Hora y Fecha del Estro "+HE+":00   "+DE+"/"+MESE+"/"+AE+" ");  
+var t2= document.createTextNode(" Hora y Fecha del Proestro "+HM+":00   "+DM+"/"+MESM+"/"+AM+" ");  
+var t3= document.createTextNode(" Hora y Fecha del Metadiestro "+HD+":00   "+DD+"/"+MESD+"/"+AD+" ");  
+var t4= document.createTextNode(" Hora y Fecha del Diestro "+HP+":00   "+DP+"/"+MESP+"/"+AP+" ");  
+newt.appendChild(t); 
+newt2.appendChild(t2); 
+newt3.appendChild(t3); 
+newt4.appendChild(t4); 
+document.getElementById("cont5").appendChild(newt); 
+document.getElementById("cont5").appendChild(newt2); 
+document.getElementById("cont5").appendChild(newt3); 
+document.getElementById("cont5").appendChild(newt4); 
 }else{
 
 document.write("<h1> Ingrese un mes valido entre 1 y 12 </h1><br>");

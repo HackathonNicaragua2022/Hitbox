@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="UserType.css">
+    <title>Tablas de Usuarios</title>
+    <link rel="shortcut icon" href="http://localhost/MVC-SB-Admin-ROL-User/Assets/images/ASDAS.png">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+</head>
+<body>
+    <div class="backgroun">
+
+        <nav class="navbar ">
+    
+    
+    
+            <!-- Topbar Search -->
+    
+    
+    
+    <!-- Divider -->
+    
+    
+    <!-- Nav Item - Menu -->
+               <li class="namm">
+                   <a class="inicio" href="http://localhost/MVC-SB-Admin-ROL-User/dashboard">
+                       <span>Inicio</span></a>
+               </li>
+    
+    
+    <!-- Divider -->
+    
+    
+    <!-- Nav Item - Pages Collapse Menu -->
+    
+    <!-- Sidebar Toggler (Sidebar) -->
+    
+    
+    <ul class="navv2" id="accordionSidebar">
+    
+    
+    
+    
+    <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item">
+                            <button id="Menu">Menu</button>
+                            <button id="Menu1">Menu</button>
+                            <div id="herras">
+                                <a href="http://localhost/MVC-SB-Admin-ROL-User/usuarios">Tabla Registro</a>
+                                <hr/>
+                                <a href="http://localhost/MVC-SB-Admin-ROL-User/roles">Calendario estral</a>
+                            </div>
+                        </li>
+    
+    
+    <!-- End of Sidebar -->
+    
+                        <li>
+                            <button id="perfil"><svg id="Componente_17_1" data-name="Componente 17 – 1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 33.857 28">
+                                <g id="circle-user" transform="translate(0.311 0.311)">
+                                  <rect id="Rectángulo_2" data-name="Rectángulo 2" width="20" height="20" transform="translate(-0.311 -0.311)" fill="none"/>
+                                  <g id="Grupo_2" data-name="Grupo 2" transform="translate(5.832 -0.311)">
+                                    <g id="Grupo_1" data-name="Grupo 1">
+                                      <path id="Trazado_1" data-name="Trazado 1" d="M13.857,0A13.857,13.857,0,1,0,27.714,13.857,13.856,13.856,0,0,0,13.857,0Zm0,6.928a3.9,3.9,0,1,1-3.9,3.9A3.9,3.9,0,0,1,13.857,6.928Zm0,17.321A10.365,10.365,0,0,1,6.512,21.2a6.024,6.024,0,0,1,5.613-3.882h3.464A6.019,6.019,0,0,1,21.2,21.2,10.361,10.361,0,0,1,13.857,24.25Z" fill="#fff"/>
+                                    </g>
+                                  </g>
+                                </g>
+                              </svg>
+                              </button>
+                              
+                              <div id="perfill">
+                                <a href="http://localhost/MVC-SB-Admin-ROL-User/usuarios/perfil">Perfil</a>
+                                <hr>
+                                <a href="">Configuracion</a>
+                                <hr>
+                                <a href="http://localhost/MVC-SB-Admin-ROL-User/Logout">Logout</a>
+                              </div>
+                              <button id="perfil1"><svg id="Componente_17_1" data-name="Componente 17 – 1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 33.857 28">
+                                <g id="circle-user" transform="translate(0.311 0.311)">
+                                  <rect id="Rectángulo_2" data-name="Rectángulo 2" width="20" height="20" transform="translate(-0.311 -0.311)" fill="none"/>
+                                  <g id="Grupo_2" data-name="Grupo 2" transform="translate(5.832 -0.311)">
+                                    <g id="Grupo_1" data-name="Grupo 1">
+                                      <path id="Trazado_1" data-name="Trazado 1" d="M13.857,0A13.857,13.857,0,1,0,27.714,13.857,13.856,13.856,0,0,0,13.857,0Zm0,6.928a3.9,3.9,0,1,1-3.9,3.9A3.9,3.9,0,0,1,13.857,6.928Zm0,17.321A10.365,10.365,0,0,1,6.512,21.2a6.024,6.024,0,0,1,5.613-3.882h3.464A6.019,6.019,0,0,1,21.2,21.2,10.361,10.361,0,0,1,13.857,24.25Z" fill="#fff"/>
+                                    </g>
+                                  </g>
+                                </g>
+                              </svg>
+                              </button>
+    
+                        </li>
+                        
+                        <li> <button id="buscador">
+                            <svg id="Grupo_4" data-name="Grupo 4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 27.992 28">
+                                <g id="Grupo_3" data-name="Grupo 3">
+                                  <path id="Trazado_2" data-name="Trazado 2" d="M27.568,25.758,20.24,18.43A11.036,11.036,0,0,0,22.7,11.375a11.4,11.4,0,1,0-4.32,8.912l7.328,7.328a1.512,1.512,0,0,0,.979.385,1.313,1.313,0,0,0,.928-.385A1.278,1.278,0,0,0,27.568,25.758ZM2.625,11.375a8.75,8.75,0,1,1,8.75,8.75A8.76,8.76,0,0,1,2.625,11.375Z" fill="#fff"/>
+                                </g>
+                              </svg>
+                              
+                        </button>
+                        <button id="buscador1">
+                            <svg id="Grupo_4" data-name="Grupo 4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 27.992 28">
+                                <g id="Grupo_3" data-name="Grupo 3">
+                                  <path id="Trazado_2" data-name="Trazado 2" d="M27.568,25.758,20.24,18.43A11.036,11.036,0,0,0,22.7,11.375a11.4,11.4,0,1,0-4.32,8.912l7.328,7.328a1.512,1.512,0,0,0,.979.385,1.313,1.313,0,0,0,.928-.385A1.278,1.278,0,0,0,27.568,25.758ZM2.625,11.375a8.75,8.75,0,1,1,8.75,8.75A8.76,8.76,0,0,1,2.625,11.375Z" fill="#fff"/>
+                                </g>
+                              </svg>
+                              
+                        </button>
+                    
+                        <div id="search">
+                            <input id="search1" type="text">
+                        </div></li>
+                     </ul>
+    
+        </nav>
+        <div class="conteiner">
+            
+            <section class="portada">
+    
+                <div class="backportada">
+                    
+                </div>
+            </section>
+        </div>
+        
+        <span class="spaan"> TECNOAGRO </span>
+        <div class="bluuur"></div>
+    </div>
+    <section class="floatt">
+        <div class="backfloat"></div>
+        <h1>Elige que tipo de usuario quieres ser </h1>
+        <h2>Puedes escoger el tipo de usuario para iniciar session y usar las herramientas predeterminada</h2>
+        <a href="#" id="jss"><div class="box1" id="box1">
+            <img src="/assets/box1.jpg" alt="">
+            <h3 class="h33">VETERINARIO</h3>
+        </div></a>
+        
+        <a href="#"id="jss2"><div class="box2" id="box2">
+            <img src="/assets/box2.jpg" alt="">
+            <h3>TECNICO GANADERO</h3>
+        </div></a>
+        
+        <a href="#" id="jss3"><div class="box3" id="box3">
+            <img src="/assets/box3.png" alt="">
+            <h3 class="h34">GANADERO</h3>
+        </div></a>
+        
+        <a href="#" id="jss4"><div class="box4" id="box4">
+            <img src="/assets/box4.png" alt="">
+            <h3 class="h33">VETERINARIO</h3>
+        </div></a>
+        <div class="clear"></div>
+        <input type="submit">
+    </section>
+    
+    <script src="inicio.js"></script>
+</body>
+</html>
